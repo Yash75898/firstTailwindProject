@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white">
+        <div class="flex justify-between items-center py-6 px-4">
+            <div class="text-3xl font-bold text-gray-800">
+                My Cab App
+            </div>
+
+            <nav>
+                <ul class="flex space-x-4">
+                    <li class="text-pink-900 hover:text-pink-600">Home</li>
+                    <li class="text-pink-900 hover:text-pink-600">About</li>
+                    <li class="text-pink-900 hover:text-pink-600">Services</li>
+                    <li class="text-pink-900 hover:text-pink-600">Contract</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-cover h-[85vh] bg-[url('https://media.istockphoto.com/id/177782877/photo/panning-shot-of-new-york-city-taxi-cab.jpg?s=1024x1024&w=is&k=20&c=fVyMF_GQemA6w5T2I7nN4uGjHMUJH5xs_EbGH9TAj0s=')]">
+        <div class="flex justify-center h-[100%] items-center">
+            <div class="text-center">
+                <h1 class="text-rose-900 text-5xl font-bold mb-4">Get there fast</h1>
+                <p class="text-2xl font-bold mb-6">Your ride is a just tap away</p>
+                <a href="#" class="bg-blue-400 text-white py-[8px] px-[22px] hover:bg-white rounded-[20px] hover:text-blue-400">Ride Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="text-white text-center">
+            &copy; 2024 My Cab App. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
