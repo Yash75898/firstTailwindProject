@@ -1,43 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100">
-    <header class="bg-white">
-        <div class="flex justify-between items-center py-6 px-4">
-            <div class="text-3xl font-bold text-gray-800">
-                My Cab App
-            </div>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-gray-200">
+      <div class="flex justify-between items-center py-6 px-4">
+        <div class="text-3xl font-bold text-gray-800">My Cab App</div>
 
-            <nav>
-                <ul class="flex space-x-4">
-                    <li class="text-pink-900 hover:text-pink-600">Home</li>
-                    <li class="text-pink-900 hover:text-pink-600">About</li>
-                    <li class="text-pink-900 hover:text-pink-600">Services</li>
-                    <li class="text-pink-900 hover:text-pink-600">Contract</li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+          <ul class="flex space-x-4">
+            <li class="text-pink-900 hover:text-pink-600 cursor-pointer">Home</li>
+            <li class="text-pink-900 hover:text-pink-600 cursor-pointer">About</li>
+            <li class="text-pink-900 hover:text-pink-600 cursor-pointer">Services</li>
+            <li class="text-pink-900 hover:text-pink-600 cursor-pointer">Contract</li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section class="bg-cover h-[85vh] bg-[url('https://media.istockphoto.com/id/177782877/photo/panning-shot-of-new-york-city-taxi-cab.jpg?s=1024x1024&w=is&k=20&c=fVyMF_GQemA6w5T2I7nN4uGjHMUJH5xs_EbGH9TAj0s=')]">
-        <div class="flex justify-center h-[100%] items-center">
-            <div class="text-center">
-                <h1 class="text-rose-900 text-5xl font-bold mb-4">Get there fast</h1>
-                <p class="text-2xl font-bold mb-6">Your ride is a just tap away</p>
-                <a href="#" class="bg-blue-400 text-white py-[8px] px-[22px] hover:bg-white rounded-[20px] hover:text-blue-400">Ride Now</a>
-            </div>
+    <section
+      class="bg-cover h-[85vh] bg-[url('https://t4.ftcdn.net/jpg/03/84/61/51/360_F_384615150_JOE5Llad7NLIbVZ9a6B6CQ3jG5uFHqHQ.jpg')]"
+    >
+      <div class="flex justify-center h-[100%] items-center">
+        <div class="text-center">
+          <h1 class="text-rose-900 text-5xl font-bold mb-4">Get there fast</h1>
+          <p class="text-2xl font-bold mb-6">Your ride is a just tap away</p>
+          <a
+            href="#"
+            class="bg-blue-400 text-white py-[8px] px-[22px] hover:bg-white rounded-[20px] hover:text-blue-400"
+            >Ride Now</a
+          >
         </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="px-4 text-center">
+        <div>
+          <h2 class="text-5xl font-bold text-gray-800 mb-4">Why choose us?</h2>
+          <p class="text-gray-700">Fast , Reliable and Affordable Rides</p>
+        </div>
+
+
+
+        <div class="flex justify-around mt-6">
+          <div>
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg hover:shadow-none">
+              <div class="flex justify-center">
+                <img class="w-12 h-12" src="/error-16-svgrepo-com.svg" alt="" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 mt-4">Fast Rides</h3>
+              <p class="text-gray-600">Get to your destination quickly and safely.</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg hover:shadow-none">
+              <div class="flex justify-center">
+                <img class="w-12 h-12" src="/error-16-svgrepo-com.svg" alt="" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 mt-4">Reliable Drivers</h3>
+              <p class="text-gray-600">Our drivers are the most trusted.</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="bg-gray-100 shadow-lg p-6 rounded-lg hover:shadow-none">
+              <div class="flex justify-center">
+                <img class="w-12 h-12" src="/error-16-svgrepo-com.svg" alt="" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 mt-4">Affordable Rides</h3>
+              <p class="text-gray-600">We provide cheapest rides to the customers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="bg-gray-800 py-6">
-        <div class="text-white text-center">
-            &copy; 2024 My Cab App. All Rights Reserved.
-        </div>
+      <div class="text-white text-center">
+        &copy; 2024 My Cab App. All Rights Reserved.
+      </div>
     </footer>
-</body>
+  </body>
 </html>
